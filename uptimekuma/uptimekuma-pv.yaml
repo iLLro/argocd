@@ -12,9 +12,9 @@ spec:
   storageClassName: slow
   mountOptions:
     - hard
-    - nfsvers=4.1
+    - nfsvers=3
   nfs:
     path: /nfs/export/uptime-kuma
-    server: <NFS-server-IP>
+    server: 192.168.111.129
 
 Create a PersistentVolumeClaim (PV
