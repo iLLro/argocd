@@ -14,7 +14,5 @@ spec:
     - hard
     - nfsvers=3
   nfs:
-    path: /nfs/export/uptime-kuma
+    path: /uptime-kuma
     server: 192.168.111.129
-
-Create a PersistentVolumeClaim (PV
