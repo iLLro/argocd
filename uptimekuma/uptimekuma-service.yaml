@@ -5,7 +5,6 @@ metadata:
   namespace: uptime-kuma
 spec:
   type: LoadBalancer
-  loadBalancerIP: <LB-IP>
   ports:
   - name: web-ui
     protocol: TCP
